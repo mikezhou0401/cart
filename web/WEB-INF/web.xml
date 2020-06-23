@@ -53,5 +53,16 @@
         <servlet-name>OrderItemListServlet</servlet-name>
         <url-pattern>/listOrderItem</url-pattern>
     </servlet-mapping>
+    //创建订单
+    //购物车
+    <servlet>
+        <servlet-name>OrderCreateServlet</servlet-name>
+        <servlet-class>servlet.OrderCreateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OrderCreateServlet</servlet-name>
+        <url-pattern>/createOrder</url-pattern>
+    </servlet-mapping>
 
 </web-app>

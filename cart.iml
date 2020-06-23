@@ -15,5 +15,6 @@
     <orderEntry type="library" name="standard" level="project" />
     <orderEntry type="library" name="servlet-api" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.0.8-bin1" level="project" />
+    <orderEntry type="library" name="testng-6.8.7" level="project" />
   </component>
 </module>

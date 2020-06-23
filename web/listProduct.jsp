@@ -23,15 +23,18 @@
             <td>${product.name}</td>
             <td>${product.price}</td>
             <td>
-
                 <form action="addOrderItem" method="post">
 
                     数量<input type="text" value="1" name="num">
                     <input type="hidden" name="pid" value="${product.id}">
-                    <input type="submit" value="购买">
+                    <input type="submit" value="加入购物车">
                 </form>
-            </td>
 
+            </td>
         </tr>
     </c:forEach>
+    <tr>
+        <td colspan="4" align="center"><a href="/listOrderItem">查看购物车</a></td>
+
+    </tr>
 </table>
